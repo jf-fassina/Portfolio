@@ -1,47 +1,51 @@
 @font-face {
-    font-family: "Header";
-    src: url(../assets/font/RobotoSlab-SemiBold.ttf);
+  font-family: "Header";
+  src: url(../assets/font/RobotoSlab-SemiBold.ttf);
 }
 
 /*Main Changes*/
 
-
 #fontHeader {
-    font-family: "Header";
+  font-family: "Header";
 }
 
 body {
-    color: #738054 !important;
-    background-color: #A3A86D !important;
+  color: #738054 !important;
+  background-color: #a3a86d !important;
 }
 
 #cursor-default:hover {
-    cursor: default;
+  cursor: default;
 }
 
 /*NavBar*/
-
-nav>ul>li>a {
-    color: burlywood;
-    text-decoration: none;
-    font-size: 25px;
+nav > ul > li > a {
+  color: burlywood !important;
+  text-decoration: none !important;
+  font-size: 25px !important;
 }
 
-nav>ul>li>a:hover {
-    color: rgb(179, 146, 102);
-    transition: 100ms ease-in-out;
+nav > ul > li > a:hover {
+  color: rgb(179, 146, 102) !important;
+  transition: 100ms ease-in-out !important;
 }
 
-nav>ul>li {
-    display: inline-block;
-    padding-top: 10px;
-    padding-right: 150px;
+nav > ul > li {
+  display: inline-block !important;
+  padding-top: 10px !important;
+  padding-right: 150px !important;
 }
 
-nav>ul {
-    display: inline-block;
+nav > ul {
+  display: inline-block !important;
 }
 
 .custom {
-    background-color: bisque;
+  background-color: bisque !important;
+}
+
+/* Who am I*/
+
+.whoAmI {
+  text-align: right;
 }
